@@ -15,7 +15,7 @@ Size get designSize {
   final logicalLongestSize =
       firstView.physicalSize.longestSide / firstView.devicePixelRatio;
   //缩放比例
-  const saleFactor = 0.95;
+  const saleFactor = 0.8;
   return Size(
       logicalLongestSize * saleFactor, logicalShortestSize * saleFactor);
 }
